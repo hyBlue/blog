@@ -15,7 +15,7 @@
             </div>
           </div>
 
-          {{ if ne .Site.Params.hiddenPostSummaryInHomePage true }}
+          {{ if ne .Site.Params.hiddenPostSummaryInHomePage false }}
               <div class="summary">{{ $summary | plainify | htmlUnescape }}</div>
           {{ end }}
 
