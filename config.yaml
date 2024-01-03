@@ -1,6 +1,6 @@
 baseURL: https://hyblue.github.io/blog
 languageCode: en-us
-title: 하고 싶은 말은 많으나 남들에게 하긴 그래서 만든 블로그
+title: Just for fun
 
 theme: mini
 
@@ -48,9 +48,9 @@ params:
   # Site Author
   author: Hyunyoung Jung
   # Author biography
-  bio: 대부분은 헛소리이며 거짓말도 섞여 있습니다.  
+  bio:
   # Site Description, used in HTML meat
-  description: HY's Blog
+  description: Hyunyoung's Blog
 
 
   ###########################################

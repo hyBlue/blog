@@ -3,6 +3,15 @@
 
 <div id="list-page">
     {{ $pages := .Site.RegularPages }}
+    Hello, and thank you for visiting my blog. This is a non-tech blog and my personal space. I would like to inform you in advance that nothing here is intended to be productive, and it may not be useful to you. If you don't want to waste your time, please feel free to go back and continue what you were doing.
+    <br><br>
+
+It's incredibly difficult and requires a lot of courage to be truly honest and open about one's inner feelings with others. The numerous constraints in the real world can prevent us from saying what we want. We may hesitate to speak out of embarrassment, or fear of damaging our social status and prestige. Sometimes, even when we are ready to speak and act on our thoughts, we just haven't found the right person to share them with.
+<br><br>
+This is the reason why I created this blog. As I mentioned earlier, telling the truth is hard. Therefore, this blog will be filled with nonsensical talk for my own amusement. It might contain lies, manipulations, exaggerations, and delusions, all for fun and sensationalism.
+<br><br>
+Some posts may contain my complaints and grievances about numerous problems in the world, and they may come across as aggressive. I kindly ask you not to view me negatively based on the content of these posts, as they may not necessarily reflect my true thoughts.
+    <br><br>
     {{ $paginator := .Paginate ($pages) }}
     {{ range $paginator.Pages }}
         {{ $title := .Title }}
